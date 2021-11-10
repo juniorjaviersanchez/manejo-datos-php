@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+    <testsuite name="Test directory">
+        <directory>tests</directory>
+    </testsuite>
+</phpunit>
+
+<!-- PARA EJECUTAR EL TEST, SE EJECUTA EL SIGUIENTE COMANDO SI UTILIZAS WINDOWS
+php vendor/phpunit/phpunit/phpunit -->
